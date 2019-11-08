@@ -3,5 +3,12 @@
   "connector": "soap",
   "url": "http://sites.ynu.edu.cn/system/services/NewsService",
   "wsdl": "http://sites.ynu.edu.cn/system/services/NewsService?wsdl",
-  "remotingEnabled": true
+  "remotingEnabled": true,
+  "operations": {
+      "getOwners": {
+      "service": "NewsServiceService",
+      "port": "NewsService",
+      "operation": "getOwners"
+    }
+  }
 }
