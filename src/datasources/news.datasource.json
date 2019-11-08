@@ -1,0 +1,7 @@
+{
+  "name": "news",
+  "connector": "soap",
+  "url": "http://sites.ynu.edu.cn/system/services/NewsService",
+  "wsdl": "http://sites.ynu.edu.cn/system/services/NewsService?wsdl",
+  "remotingEnabled": true
+}
